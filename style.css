@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bannerWrapper {
+  background-image: url(images/bgBanner_02.png);
+  background-size: cover;
+  min-height: 99.9vh;
+  padding: 2rem 4rem;
+  position: relative;
+	color: white;
+}
+.nav-item,
+.navbar-brand {
+  color: white;
+}
+.nav-item{
+	margin-block: 0.5rem;
+}
+.mobileNav .nav-link.active {
+  color: #419deb;
+	padding: 0;
+}
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+ul {
+  list-style: none;
+	padding: 0;
+}
+.navbar-collapse{
+	text-align: right;
+	padding: 2rem 0;
+}
+svg {
+  transform: translateX(1rem);
+}
+svg>g{
+	transition: 0.2s ease;
+}
+.pupil{
+  opacity: 0;
+	width: 0;
+}
+.upperBrow {
+  transform: translate3d(0, 0, 1rem);
+}
+.lowerBrow {
+  transform: translate3d(0, -1rem, 0);
+}
+.pupil.vring  {
+  opacity: 1;
+	width: 100%;
+}
+.upperBrow.pring,
+.lowerBrow.pring {
+  transform: none;
+  transition: 0.2s ease;
+}
+.b1 {
+  background-color: #419deb;
+  padding: 0.8rem 2.75rem;
+  color: #fff;
+}
+.mainNavToggler {
+  background-color: transparent;
+  border: none;
+}
+
